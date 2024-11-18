@@ -1,6 +1,14 @@
 # Antenna House AH-WML plug-in
 
-AH-WML is the [DITA-OT](http://dita-ot.org) plug-in that generates Microsoft Word Document (.docx) from DITA contents.
+$$
+\begin{align*}
+&dst' = \mathrm{saturate\_cast<float>} (src_A \times w_{alpha} + src_B \times w_{beta} + b_{gamma})
+\\
+&dst = \mathrm{max}(v_{min}, \mathrm{min}(dst', v_{max}))
+\end{align*}
+$$
+
+
 
 ## Requirements ##
 
