@@ -1,5 +1,43 @@
 # Antenna House AH-WML plug-in
 
+
+$$
+\begin{equation}
+ddy=
+\begin{cases}
+0, & x[i]==0,\\
+-ddx[i] & x \lt 0, \\
+ddx[i] & x \gt 0 \\
+\end{cases}
+\end{equation}
+$$
+
+
+$$
+ddy=\begin{cases}
+0,&\text{ }x[i]==0,\\
+-ddx[i]&\text{ }x<0,\\
+ddx[i]&\text{ }x>0
+\end{cases}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $$
 \begin{align*}
 &dst' = \mathrm{saturate\_cast<float>} (src_A \times w_{alpha} + src_B \times w_{beta} + b_{gamma})
